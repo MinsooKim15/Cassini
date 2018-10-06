@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		023A287521689FA600293E65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023A287421689FA600293E65 /* AppDelegate.swift */; };
-		023A287721689FA600293E65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023A287621689FA600293E65 /* ViewController.swift */; };
 		023A287A21689FA600293E65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 023A287821689FA600293E65 /* Main.storyboard */; };
 		023A287C21689FA900293E65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 023A287B21689FA900293E65 /* Assets.xcassets */; };
 		023A287F21689FA900293E65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 023A287D21689FA900293E65 /* LaunchScreen.storyboard */; };
+		023A28882168A02B00293E65 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023A28872168A02B00293E65 /* ImageViewController.swift */; };
+		023A288A2168A4E500293E65 /* DemoURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023A28892168A4E500293E65 /* DemoURLs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		023A287121689FA600293E65 /* Cassini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cassini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		023A287421689FA600293E65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		023A287621689FA600293E65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		023A287921689FA600293E65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		023A287B21689FA900293E65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		023A287E21689FA900293E65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		023A288021689FA900293E65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		023A28872168A02B00293E65 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		023A28892168A4E500293E65 /* DemoURLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoURLs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,23 @@
 		023A287321689FA600293E65 /* Cassini */ = {
 			isa = PBXGroup;
 			children = (
-				023A287421689FA600293E65 /* AppDelegate.swift */,
-				023A287621689FA600293E65 /* ViewController.swift */,
+				023A288621689FC900293E65 /* Supporting Files */,
 				023A287821689FA600293E65 /* Main.storyboard */,
-				023A287B21689FA900293E65 /* Assets.xcassets */,
-				023A287D21689FA900293E65 /* LaunchScreen.storyboard */,
+				023A28872168A02B00293E65 /* ImageViewController.swift */,
 				023A288021689FA900293E65 /* Info.plist */,
+				023A28892168A4E500293E65 /* DemoURLs.swift */,
 			);
 			path = Cassini;
+			sourceTree = "<group>";
+		};
+		023A288621689FC900293E65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				023A287421689FA600293E65 /* AppDelegate.swift */,
+				023A287B21689FA900293E65 /* Assets.xcassets */,
+				023A287D21689FA900293E65 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				023A287721689FA600293E65 /* ViewController.swift in Sources */,
+				023A28882168A02B00293E65 /* ImageViewController.swift in Sources */,
 				023A287521689FA600293E65 /* AppDelegate.swift in Sources */,
+				023A288A2168A4E500293E65 /* DemoURLs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
